@@ -1,0 +1,45 @@
+.wordWindow {
+    width: 70%;
+    min-height: 56px;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 17px;
+    border: 3px solid lightblue;
+    border-top: 3px solid rgba(144, 238, 144, 0.527);
+    background-color: rgba(173, 212, 224, 0.137);
+}
+
+.wordWindow p {
+    line-height: 1.5;
+}
+
+.buttonWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+button {
+    margin: 0px 20px;
+    border: 2px solid lightblue;
+    width: 70px;
+    height: 40px;
+    border-radius: 17px;
+    background-color: lightblue;
+    color: rgb(0, 0, 41);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(130, 201, 224);
+    border: 2px solid rgb(130, 201, 224);
+    box-shadow: 4px 4px 5px lightgray;
+}
+
+button:active {
+    cursor: pointer;
+    background-color: rgb(130, 201, 224);
+    border: 2px solid rgb(116, 178, 199);
+    box-shadow: 2px 2px 3px lightgray;
+}
